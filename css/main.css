@@ -1,0 +1,90 @@
+/* Basic Setup */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+ :root {
+    --grey-black: #333333;
+    --grey-black-2: #4F4F4F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Content Top */
+
+.content-top-container {
+    position: relative;
+    width: 100%;
+    height: 41.56rem;
+    margin-top: 0px;
+    background: #F4F6F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.content-top-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/content-top-frame-1.webp);
+    background-attachment: fixed;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.content-top-logo {
+    position: relative;
+    width: 6.18rem;
+    height: 2rem;
+    left: 10.18rem;
+    top: 3.18rem;
+}
+
+.content-top-primary-text {
+    position: relative;
+    width: 34.125rem;
+    height: 6rem;
+    left: 10.18rem;
+    top: 9.75rem;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    color: var(--grey-black);
+}
+
+.content-top-secondary-text {
+    position: relative;
+    width: 28.31rem;
+    height: 3.25rem;
+    left: 10.18rem;
+    top: 11.37rem;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.12rem;
+    line-height: 1.62rem;
+    color: var(--grey-black-2);
+}
+
+.content-top-apps-container {
+    display: flex;
+    position: relative;
+    width: 9.75rem;
+    height: 2.93rem;
+    left: 10.12rem;
+    top: 14rem;
+}
+
+.content-top-apps-container-google {
+    margin: 0 2.25rem;
+}

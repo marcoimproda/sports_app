@@ -1,0 +1,68 @@
+@media screen and (max-width: 20em) {
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .content-top-container {
+        position: relative;
+        width: 360px;
+        height: 525px;
+        left: 0px;
+        top: 0px;
+        background: #F4F6F9;
+    }
+    .content-top-container::before {
+        opacity: 0%;
+    }
+    .content-top-logo {
+        position: relative;
+        width: 99px;
+        height: 32px;
+        left: 131px;
+        top: 32px;
+    }
+    .content-top-primary-text {
+        position: relative;
+        width: 320px;
+        height: 119px;
+        left: 20px;
+        top: 100px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--grey-black);
+    }
+    .content-top-secondary-text {
+        width: 320px;
+        height: 70px;
+        left: 20px;
+        top: 132px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: var(--grey-black-2);
+    }
+    .content-top-apps-container {
+        display: flex;
+        position: relative;
+        width: 145.69px;
+        height: 44px;
+        left: 10px;
+        top: 192px;
+    }
+    .content-top-apps-container-google {
+        margin: 0 20px;
+    }
+    .content-top-frame-one {
+        visibility: hidden;
+    }
+}

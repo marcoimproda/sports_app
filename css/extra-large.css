@@ -1,0 +1,9 @@
+@media screen and (max-width: 83.125em) {
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .content-top-container::before {
+        opacity: 30%;
+    }
+}
