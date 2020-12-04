@@ -4,6 +4,24 @@
         overflow-x: hidden;
     }
     .content-top-container::before {
+        transition: ease-in 1s;
         opacity: 30%;
+    }
+    /* Content Two */
+    .content-two-divider1 {
+        width: 70%;
+        height: 100%;
+    }
+    .content-two-divider2 {
+        width: 60%;
+        height: 60%;
+    }
+    .content-two-box1 {
+        left: 1rem;
+        transition: ease-in 1s;
+    }
+    .content-two-box2 {
+        left: 4rem;
+        transition: ease-in 1s;
     }
 }

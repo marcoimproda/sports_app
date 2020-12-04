@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports App - Landing Page</title>
     <link rel="stylesheet" href="css/main.css">
-    <!-- Served to screens that are at least 20em wide -->
-    <link rel="stylesheet" href="css/little.css" media="(max-width: 20em)" />
-    <!-- Served to screens that are at least 30em wide -->
-    <link rel="stylesheet" href="css/medium.css" media="(max-width: 30em)" />
-    <!-- Served to screens that are at least 50.25em wide -->
-    <link rel="stylesheet" href="css/large.css" media="(max-width: 50.25em)" />
     <!-- Served to screens that are at least 83.125em wide -->
     <link rel="stylesheet" href="css/extra-large.css" media="(max-width: 83.125em)" />
+    <!-- Served to screens that are at least 50.25em wide -->
+    <link rel="stylesheet" href="css/large.css" media="(max-width: 50.25em)" />
+    <!-- Served to screens that are at least 30em wide -->
+    <link rel="stylesheet" href="css/medium.css" media="(max-width: 30em)" />
+    <!-- Served to screens that are at least 20em wide -->
+    <link rel="stylesheet" href="css/little.css" media="(max-width: 20em)" />
 </head>
 
 <body>
 
     <main>
+        <!-- Content Top -->
         <section class="content-top-container">
             <a href="#main"><img class="content-top-logo" src="img/logo.svg" alt="Logo"></a>
-            <h1 class="content-top-primary-text">Get a personalized football experience tailored just for you</h1>
-            <h2 class="content-top-secondary-text">Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.</h2>
+            <h1 class="content-top-primary-text lato">Get a personalized football experience tailored just for you</h1>
+            <h2 class="content-top-secondary-text lato">Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.</h2>
             <div class="content-top-apps-container">
                 <picture class="content-top-apps-container-apple">
                     <source srcset="img/box-apple-store.webp" type="image/webp">
@@ -36,7 +37,67 @@
                 </picture>
             </div>
         </section>
+        <!-- Content Two -->
+        <section class="content-two">
+            <div class="content-two-divider1">
+                <div class="content-two-box1">
+                    <div class="content-two-box1-container-text">
+                        <p class="content-two-box1-text-1 lato">Sat, 12:35pm</p>
+                        <p class="content-two-box1-text-2 lato">Arsenal v Chelsea</p>
+                        <p class="content-two-box1-text-3 lato">Friendly Match</p>
+                    </div>
+                    <div class="content-two-box1-container-images">
+                        <picture>
+                            <source srcset="img/mobile/section-two-image03.png" media="(max-width: 50.25em)">
+                            <source srcset="img/section-two-image03.webp" type="image/webp">
+                            <source srcset="img/section-two-image03.png" type="image/png">
+                            <img src="img/section-two-image03.webp" alt="Arsenal Logo">
+                        </picture>
+                        <picture>
+                            <source srcset="img/mobile/section-two-image04.png" media="(max-width: 50.25em)">
+                            <source srcset="img/section-two-image04.webp" type="image/webp">
+                            <source srcset="img/section-two-image04.webp" type="image/png">
+                            <img src="img/section-two-image04.webp" alt="Chelsea Logo">
+                        </picture>
+                    </div>
 
+                    <div class="content-two-box1-notification-container">
+                        <p>Turn on all match notifications</p>
+                        <img src="img/toogle.svg" alt="Toggle">
+                    </div>
+                </div>
+                <div class="content-two-box2">
+                    <div class="content-two-box2-player-bg">
+                    </div>
+                    <div class="content-two-box2-player-container">
+                        <picture>
+                            <source srcset="img/mobile/pause.svg" media="(max-width: 50.25em)">
+                            <source srcset="img/pause.svg">
+                            <img src="img/pause.svg" alt="Pause">
+                        </picture>
+                        <span>00:28</span>
+                        <picture class="player-bar-mobile">
+                            <source srcset="img/mobile/player-bar.svg" media="(max-width: 50.25em)">
+                            <source srcset="img/player-bar.svg">
+                            <img src="img/player-bar.svg" alt="Player Bar">
+                        </picture>
+                        <span>00:42</span>
+                        <picture>
+                            <source srcset="img/mobile/video-label.svg" media="(max-width: 50.25em)">
+                            <source srcset="img/video-label.svg">
+                            <img src="img/video-label.svg" alt="Video Label">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="content-two-divider2">
+                <h1 class="text-01">What It Does</h1>
+                <h2 class="text-02">An Enhanced Football Experience</h2>
+                <p class="text-03">The Guardian Live Scores app is your go to app for live scores and watching Premier League goals… Get in there, what a result!</p>
+                <p class="text-03">As well as videos of all the goals, you can watch match highlights, check out the latest scores and results and stay bang-up-to-date with the big football stories from The Guardian publication.</p>
+                <a class="content-two-link lato" href="#content-two">Learn More</a>
+            </div>
+        </section>
 
     </main>
 
