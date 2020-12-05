@@ -134,4 +134,33 @@
         line-height: 0.625rem;
         top: 0.2rem;
     }
+    /* Content three */
+    .content-three {
+        transition: ease-in 1s;
+        flex-direction: column-reverse;
+        display: block;
+        background-image: none;
+    }
+    .content-three-divider-1 {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .content-three-divider-2 {
+        background-image: url(../img/mobile/section-three-image01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .content-three-icon-1 {
+        bottom: 12rem;
+        left: 10.4rem;
+    }
+    .content-three-icon-2 {
+        top: 4rem;
+        right: 4rem;
+    }
+    .content-three-icon-3 {
+        visibility: hidden;
+    }
 }

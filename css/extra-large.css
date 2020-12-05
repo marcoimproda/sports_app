@@ -24,4 +24,9 @@
         left: 4rem;
         transition: ease-in 1s;
     }
+    /* Content Three */
+    .content-three-icon-3 {
+        transition: ease-in 1s;
+        top: 8rem;
+    }
 }

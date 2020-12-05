@@ -63,4 +63,25 @@
         left: 3rem;
         top: 0rem;
     }
+    /* Content three */
+    .content-three-divider-2 {
+        background-position: right;
+    }
+    .content-three-image01 {
+        position: relative;
+        top: 1rem;
+        right: 5rem;
+        transition: ease-in 1s;
+    }
+    .content-three-icon-1 {
+        bottom: 12rem;
+        left: 5.4rem;
+        z-index: 2;
+        transition: ease-in 1s;
+    }
+    .content-three-icon-2 {
+        top: 5rem;
+        right: 10rem;
+        transition: ease-in 1s;
+    }
 }

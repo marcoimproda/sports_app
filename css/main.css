@@ -282,3 +282,62 @@
     position: relative;
     top: 0.3rem;
 }
+
+
+/* Content three */
+
+.content-three {
+    display: flex;
+    width: auto;
+    height: 40rem;
+    background-image: url(../img/section-three-image01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: row;
+}
+
+.content-three-divider-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-direction: column;
+    height: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    position: relative;
+    top: 2rem;
+    background: var(--white);
+}
+
+.fixmargin {
+    margin-top: -14rem;
+}
+
+.content-three-divider-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: 2rem;
+}
+
+.content-three-icon-1 {
+    position: relative;
+    bottom: 15rem;
+    left: 13rem;
+}
+
+.content-three-icon-2 {
+    position: relative;
+    top: 8rem;
+    right: 7rem;
+}
+
+.content-three-icon-3 {
+    position: relative;
+    top: 10rem;
+}
