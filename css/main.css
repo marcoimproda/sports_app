@@ -4,6 +4,7 @@
  :root {
     --grey-black: #333333;
     --grey-black-2: #4F4F4F;
+    --grey-light: #FAFAFA;
     --deep-sky-blue: #00ADEE;
     --white: #ffffff;
     --black: #000000;
@@ -340,4 +341,51 @@
 .content-three-icon-3 {
     position: relative;
     top: 10rem;
+}
+
+
+/* Content four */
+
+.content-four {
+    background-image: url(../img/section-four-image01.png);
+    background-repeat: round;
+    width: 100%;
+    height: 60rem;
+    position: relative;
+    top: 1rem;
+}
+
+.content-four-title-text {
+    position: relative;
+    top: 9rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 2.3125rem;
+    color: var(--white);
+}
+
+.content-four-container {
+    display: grid;
+    width: 80%;
+    height: auto;
+    margin: 300px auto;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-template-rows: repeat(3, 1.5fr);
+    grid-row-gap: 3.875rem;
+    column-gap: 11.25rem;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.4375rem;
+    color: var(--white);
+}
+
+.content-four-container img {
+    position: relative;
+    bottom: 1.5rem;
+    left: 2.6rem;
+}
+
+.dot::before {
+    content: "• ";
 }

@@ -29,4 +29,22 @@
         transition: ease-in 1s;
         top: 8rem;
     }
+    /* Content Four */
+    .content-four {
+        height: 65rem;
+    }
+    .content-four-title-text {
+        position: relative;
+        top: 4rem;
+        color: var(--white);
+    }
+    .content-four-container {
+        width: 80%;
+        margin: 120px auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-row-gap: 3.75rem;
+        column-gap: 6.25rem;
+        transition: ease-in 1s;
+    }
 }

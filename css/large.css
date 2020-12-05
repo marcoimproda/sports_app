@@ -163,4 +163,30 @@
     .content-three-icon-3 {
         visibility: hidden;
     }
+    /* Content four */
+    .content-four {
+        background-image: none;
+        background: var(--grey-light);
+        top: 38rem;
+        height: 100%;
+        width: 100%;
+    }
+    .content-four-title-text {
+        color: var(--grey-black);
+    }
+    .content-four-container {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        color: var(--grey-black-2);
+    }
+    .content-four-container img {
+        display: flex;
+        bottom: 0rem;
+        left: 0rem;
+        margin: 30px auto;
+        filter: invert(40%) sepia(26%) saturate(4499%) hue-rotate(167deg) brightness(103%) contrast(101%);
+    }
+    .dot::before {
+        content: "";
+    }
 }
