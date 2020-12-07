@@ -389,3 +389,87 @@
 .dot::before {
     content: "• ";
 }
+
+
+/* Content Five */
+
+.content-five {
+    width: 100%;
+    height: 430px;
+}
+
+.content-five-title {
+    position: relative;
+    top: 4rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: var(--grey-black);
+}
+
+.content-five-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 9rem;
+}
+
+.content-five-arrows-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-five-arrows-container img {
+    cursor: pointer;
+}
+
+.content-five-arrows-container img:nth-child(2) {
+    position: relative;
+    bottom: 0.18rem;
+}
+
+.content-five-dots-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 8rem;
+}
+
+.content-five-dots-container span {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+}
+
+.content-five-dots-1 {
+    background: #828282;
+}
+
+.content-five-dots-2 {
+    background: #979595;
+}
+
+.content-five-dots-3 {
+    background: #B2B0B0;
+}
+
+.content-five-dots-4 {
+    background: #CDCBCB;
+}
+
+.content-five-dots-5 {
+    background: #E2E1E1;
+}
+
+.content-five-dots-6 {
+    background: #EEEEEE;
+}
+
+.content-five-dots-7 {
+    background: #F7F7F7;
+}
