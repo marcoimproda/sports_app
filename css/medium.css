@@ -99,4 +99,18 @@
         width: 0;
         height: 0;
     }
+    /* Content Seven */
+    .content-seven {
+        justify-content: left;
+    }
+    .content-seven-half-01 {
+        justify-content: left;
+    }
+    .content-seven-half-02 {
+        height: 100%;
+        align-items: flex-start;
+    }
+    .content-seven-half-02 .content-top-apps-container {
+        left: 0rem;
+    }
 }
