@@ -56,4 +56,27 @@
         position: relative;
         left: 2rem;
     }
+    /* Footer */
+    .footer {
+        position: relative;
+        top: 37rem;
+        height: 15rem;
+    }
+    .footer-logo {
+        position: relative;
+        left: 1.4rem;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-social-links-container {
+        order: 1;
+        top: 1rem;
+        left: 1rem;
+    }
+    .footer-links-container {
+        order: 3;
+        position: relative;
+        top: 3rem;
+    }
 }
