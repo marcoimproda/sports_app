@@ -92,8 +92,8 @@
         width: 30rem;
     }
     /* Contenent Five */
-    .content-five-container img:nth-child(1),
-    .content-five-container img:nth-child(2) {
+    .content-five-container picture:nth-child(1),
+    .content-five-container picture:nth-child(2) {
         visibility: hidden;
         width: 0;
         height: 0;

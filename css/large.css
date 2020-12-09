@@ -209,8 +209,8 @@
     .content-five-container {
         top: 4rem;
     }
-    .content-five-container img:nth-child(4),
-    .content-five-container img:nth-child(5) {
+    .content-five-container picture:nth-child(4),
+    .content-five-container picture:nth-child(5) {
         visibility: hidden;
         width: 0;
         height: 0;
