@@ -51,6 +51,9 @@
         margin: 0 15px;
     }
     /* Content Two */
+    .content-two {
+        width: 30rem;
+    }
     .content-two-divider2 {
         width: 80%;
         height: 100%;
@@ -84,6 +87,10 @@
         right: 10rem;
         transition: ease-in 1s;
     }
+    /* Contenent Four */
+    .content-four {
+        width: 30rem;
+    }
     /* Contenent Five */
     .content-five-container img:nth-child(1),
     .content-five-container img:nth-child(2) {
@@ -112,5 +119,17 @@
     }
     .content-seven-half-02 .content-top-apps-container {
         left: 0rem;
+    }
+    /* Footer */
+    .footer {
+        width: 30rem;
+        height: 20rem;
+    }
+    .footer-links-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-links-container span {
+        margin: 0.5rem;
     }
 }
